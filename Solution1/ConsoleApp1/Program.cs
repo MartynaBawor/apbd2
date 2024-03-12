@@ -4,12 +4,12 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("modyfikacja1");
 static double GetAverage(int[] numbers)
 {
-    double sum = 0;
+    double ssum = 0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        sum += numbers[i];
+        ssum += numbers[i];
     }
-    return sum / numbers.Length;
+    return ssum / numbers.Length;
 }
 
 int[] arr = { 1, 2, 3, 4 };
